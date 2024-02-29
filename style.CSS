@@ -1,0 +1,51 @@
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+footer {
+    background-color: #f3eada;
+}
+
+.bolha {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolinha {
+    height: 2rem; 
+    width: 2rem;
+    background-color: #6a313b;
+    border-radius: 1rem;
+}
+.menu {
+    display:flex;
+}
+
+.menu1, .menu2 {
+color: #a96d82;
+padding: 1rem;
+}
+.menu2 ul {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+a {
+    color: #a96d82;
+    font-size: 0.7rem;
+    }
+
+.ovelhanegra {
+    color: #6a313b;
+    font-size: 0.7rem;
+    font-weight: 6
+} 
